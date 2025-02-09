@@ -1,0 +1,98 @@
+#IT PORTFOLIO
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+section {
+    padding: 50px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #333;
+}
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+             </ul>
+        </nav>
+     </header>
+    <section id="Home">
+        <h3>THIRUMALASETTY LIKHITHANJALI</h3>
+        <h3>Aspiring Front end Developer</h3>
+    </section>
+    <section id="about">
+        <h1>About Me</h1>
+        <p>A highly motivated front-end developer seeking a challenging position in a fast-paced, innovative environment. My technical expertise in HTML, CSS, and JavaScript, along with my passion for creating exceptional user experiences, makes me a valuable asset to any organization. I am confident that my skills and dedication will allow me to contribute significantly to the success of the company. I am a quick learner, eager to embrace new technologies and frameworks, and committed to staying at the forefront of front-end development trends.</p>
+    </section>
+    <section id="projects">
+        <h1>Projects</h1>
+        <h2>Foodie place</h2>
+        <a href="https://github.com/Likitha175/Foodie-Place/blob/main/Foodie%20Place" target="_blank">Visit my project</a>
+        <h2>Traffic Lights</h2>
+        <a href="https://github.com/Likitha175/Traffic-Lights/blob/main/README.md?plain=1" target="_blank">Visit my project</a>
+        <h2>solar system</h2>
+        <a href="https://github.com/Likitha175/solar-system/tree/main" target="blank">visit my project</a>
+        <h2>Table grid</h2>
+        <a href="https://github.com/Likitha175/Table-grid/tree/main" target="blank">visit my project</a>
+        <h2>A.P.J Abdul Kalam</h2>  
+        <a href="https://github.com/Likitha175/A.P.J-Abdul-Kalam-/tree/main" target="blank">visit my project</a>
+    </section>
+    <section id="skills">
+        <h1>Skills</h1>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Canva</li>
+            <!-- Add more skills -->
+        </ul>
+    </section>
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <p>thirumalasettylikhitha@gmail.com</p>
+        <p>7569636127</p>
+        <a href="https://www.linkedin.com/in/likhitha-thirumalasetty-130726326/details/interests/?detailScreenTabIndex=0" target="_blank">Visit My LinkedIn Profile</a>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+    
